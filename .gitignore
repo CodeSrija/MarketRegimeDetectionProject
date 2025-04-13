@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment Variables / Virtual Environments
+venv/
+env/
+*.env
+*.venv
+
+# IDE/Editor Settings
+.vscode/
+.idea/
+
+# Data Files (Large data files that shouldn't be tracked)
+data/depth20_1000ms/*.txt
+data/aggTrade/*.csv
+
+# Log Files
+*.log
+
+# Output from builds or tests
+*.out
+*.log
+*.test
+*.tmp
+
+# Git LFS tracking
+*.zip
+*.tar
+*.gz
+
+# Other
+.DS_Store   # macOS file
+Thumbs.db   # Windows file
